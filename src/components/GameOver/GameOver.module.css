@@ -1,0 +1,83 @@
+.overlay {
+  position: absolute;
+  inset: 0;
+  display: grid;
+  place-items: center;
+  padding: 20px;
+  background: rgba(5, 4, 15, 0.6);
+  backdrop-filter: blur(3px);
+}
+
+.card {
+  width: min(360px, 100%);
+  display: grid;
+  justify-items: center;
+  gap: 4px;
+  padding: 28px 24px 24px;
+  border-radius: 28px;
+  background: linear-gradient(160deg, rgba(40, 28, 90, 0.92), rgba(14, 10, 32, 0.95));
+  border: 1px solid rgba(167, 139, 250, 0.35);
+  box-shadow: 0 30px 80px -20px rgba(124, 92, 255, 0.6);
+  text-align: center;
+}
+
+.reason,
+.record {
+  margin: 0 0 8px;
+  font-weight: 600;
+  color: rgba(230, 226, 255, 0.85);
+}
+
+.record {
+  font-size: 18px;
+  color: #ffd95a;
+}
+
+.label {
+  margin: 0;
+  font-size: 12px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: rgba(220, 215, 255, 0.55);
+}
+
+.score {
+  margin: 0;
+  font-family: 'Unbounded', sans-serif;
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 1.1;
+  color: #fff;
+}
+
+.best {
+  margin: 0 0 18px;
+  color: rgba(220, 215, 255, 0.7);
+}
+
+.actions {
+  display: grid;
+  gap: 10px;
+  width: 100%;
+}
+
+.primary,
+.secondary {
+  min-height: 52px;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.primary {
+  border: 0;
+  background: linear-gradient(135deg, #7c5cff, #4f2bff);
+  color: #fff;
+}
+
+.secondary {
+  border: 1px solid rgba(255, 255, 255, 0.16);
+  background: transparent;
+  color: #e7e4ff;
+}

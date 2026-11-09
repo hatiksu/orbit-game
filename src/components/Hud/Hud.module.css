@@ -1,0 +1,46 @@
+.hud {
+  position: absolute;
+  inset: 0 0 auto;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  align-items: start;
+  padding: calc(env(safe-area-inset-top, 0px) + 12px) 14px 0;
+  pointer-events: none;
+}
+
+.right {
+  justify-self: end;
+}
+
+.center {
+  display: grid;
+  justify-items: center;
+  gap: 2px;
+}
+
+.score {
+  font-family: 'Unbounded', sans-serif;
+  font-weight: 700;
+  font-size: 44px;
+  line-height: 1;
+  color: #fff;
+  text-shadow: 0 0 24px rgba(140, 110, 255, 0.8);
+  font-variant-numeric: tabular-nums;
+}
+
+.best {
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(220, 215, 255, 0.6);
+}
+
+.combo {
+  margin-top: 4px;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: linear-gradient(90deg, #ff4fd8, #ffb84f);
+  color: #1a0b25;
+  font-weight: 800;
+  font-size: 13px;
+}
