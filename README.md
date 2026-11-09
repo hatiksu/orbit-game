@@ -63,7 +63,7 @@ npm run test:e2e # E2E-тесты на компьютере и телефоне 
 
 ## Установка на Windows
 
-Готовый установщик `.exe` лежит в **Releases** репозитория — релиз с тегом `orbit-game-v…`.
+Готовый установщик — в [последнем релизе](https://github.com/hatiksu/orbit-game/releases/latest) (все версии — в [Releases](https://github.com/hatiksu/orbit-game/releases)).
 
 1. Скачайте `orbit-game-Setup-<версия>.exe` и запустите.
 2. Если Windows покажет «Система Windows защитила ваш компьютер» — **Подробнее → Выполнить в любом случае**

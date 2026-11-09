@@ -8,6 +8,7 @@
     "Неон без тормозов на телефоне: спрайты свечения вместо shadowBlur, частицы, параллакс, тряска",
     "Звуки синтезируются Web Audio прямо в браузере — без аудиофайлов"
   ],
+  "code": "https://github.com/hatiksu/orbit-game",
   "mockup": "generic",
   "icon": "🪐",
   "order": 1
