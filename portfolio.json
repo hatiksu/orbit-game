@@ -11,5 +11,14 @@
   "code": "https://github.com/hatiksu/orbit-game",
   "mockup": "generic",
   "icon": "🪐",
-  "order": 1
+  "order": 1,
+  "en": {
+    "title": "Orbit — a one-tap arcade",
+    "description": "A neon browser game on Canvas: jump from orbit to orbit, nail perfect entries for combos, collect stars and dodge asteroids. Works on phones and offline.",
+    "highlights": [
+      "Custom deterministic engine with a fixed physics step — a bot in the tests proves every level is passable",
+      "Smooth neon on phones: glow sprites instead of shadowBlur, particles, parallax, screen shake",
+      "Sounds are synthesised with Web Audio right in the browser — no audio files"
+    ]
+  }
 }
